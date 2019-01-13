@@ -31,7 +31,7 @@ class Root(Tk):
 
 	def la(self):
 		self.label1=Label(self.laFrame,text=self.info)
-		self.label1.place(x=10,y=20,anchor="w")
+		self.label1.place(x=20,y=40,anchor="w")
 
 	def button(self):
 		self.button=ttk.Button(self.labelFrame,text="Browse",command=self.fileDialog)
@@ -48,7 +48,7 @@ class Root(Tk):
 		self.button.place(x=350,y=20,anchor="w")
 
 	def fileDialog(self):
-		self.fileName=filedialog.askopenfilename(initialdir="~",title="Select a file",filetypes=(("jpeg","*.jpg"),("All Files","*.*")))
+		self.fileName=filedialog.askopenfilename(initialdir="~/Documents/hackathon/hack_v15/",title="Select a file",filetypes=(("jpeg","*.jpeg"),("All Files","*.*")))
 		self.label.configure(text=self.fileName)
 
 
@@ -225,7 +225,7 @@ class Root(Tk):
 		else:
 			self.info+="Your T-shirt size is Large"
 
-		self.label1.configure(text="abcd")
+		self.label1.configure(text=self.info)
 		print(self.info)
 
 		cv2.imshow("Image",orig)
