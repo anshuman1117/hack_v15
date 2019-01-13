@@ -17,11 +17,11 @@ An application to detect clothes size using image analysis.<br> An A4 size sheet
 Main motive of the project is to take the image of any person and tell him the required size of the clothes he is looking for.
 
 ## Functionality
-Project detects the dimensions of a human body required for the clothes sizes. It does that by detecting the dimensions of the reference A4 sheet and measuring them. Then, it recognises the location of joints in the picture and then calculates the distance between the joints with respect to the reference sheet. Then, using a pre-defined range, as per the clothe vendor, it tells the corresponding size.
+Project detects the dimensions of a human body required for the clothes sizes. It does that by detecting the dimensions of the reference A4 sheet and measuring them. Then, it recognises the location of joints in the picture and then calculates the distance between the joints with respect to the reference sheet. Then, using a pre-defined range, as per the clothes vendor, it tells the corresponding size.
 
 ## Authors
 - Mohit Juneja
 - Abhishek Rajgharia
 - Garndharv Mohan
-
+- Anshuman Singh
 
